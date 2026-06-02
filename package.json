@@ -1,0 +1,14 @@
+{
+  "name": "node-red-project",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node -e \"require('node-red')\" -- --userDir ./"
+  },
+  "dependencies": {
+    "node-red": "^4.0.0",
+    "node-red-contrib-google-sheets": "^1.1.2",
+    "node-red-node-email": "^5.2.3"
+  }
+}
