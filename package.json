@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node -e \"require('node-red')\" -- --userDir ./"
+    "start": "node node_modules/node-red/red.js --userDir ./"
   },
   "dependencies": {
     "node-red": "^4.0.0",
